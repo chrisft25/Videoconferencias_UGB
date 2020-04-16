@@ -1,0 +1,16 @@
+@import "~antd/dist/antd.css";
+
+.header-ugb {
+  background-color: rgb(13, 68, 155);
+  height: 8vh;
+}
+
+.videoconferencia {
+  height: 92vh;
+  width: 100%;
+  border: 0;
+}
+
+.logo {
+  height: 100%;
+}
