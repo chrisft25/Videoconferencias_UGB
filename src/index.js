@@ -11,7 +11,8 @@ const rootPage = () => {
 const routing = (
   <Router>
     <div>
-      <Route exact path="/:id" render={(props) => <App {...props} />} />
+      <Route exact path="/video/:id" render={(props) => <App {...props} />} />
+      <Route exact path="/video/" render={rootPage} />
       <Route exact path="/" render={rootPage} />
     </div>
   </Router>
